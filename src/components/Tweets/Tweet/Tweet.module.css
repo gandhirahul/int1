@@ -1,0 +1,33 @@
+.tweetRow {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.tweetImage {
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.imageWrapper {
+  width: 20%;
+}
+
+.tweetContent {
+  width: 80%;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.tweetText {
+  background-color: #dcdcdc;
+  padding: 1rem 1.25rem;
+}
+
+@media (min-width: 560px) {
+  .tweetImage {
+    width: 8rem;
+    height: 8rem;
+  }
+}
