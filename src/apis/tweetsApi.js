@@ -37,3 +37,7 @@ export const fetchTweetsBeforeNow = () => {
 export const resetDatabase = () => {
   return fetch(`${baseUrl}/${username}/${routes.reset}`);
 };
+
+export const fetchTweetsBeforeId = id => {
+  return fetchWrapper(`${baseUrl}/${username}/api?${routes.beforeID}${id}`);
+};
